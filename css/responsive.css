@@ -44,6 +44,7 @@
 	.info-text {
 		padding-right: 0;	
 	}
+
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -364,6 +365,9 @@
 	.info-text {
 		padding-right: 0;	
 	}
+
+	.title-page .title {
+	font-size: 2em;
 }
 
 @media (max-width: 320px) {
@@ -383,6 +387,21 @@
 	#twitter-feed {
 		padding-top: 90px;
 		padding-bottom: 120px;	
+	}
+
+	.title-page .title {
+	font-size: 1.5em;
+	}
+
+	#social-area {
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 0;
+	}
+
+	#social-area #social ul li a {
+		width: 30px;
+		height: 50px;
 	}
 }
 

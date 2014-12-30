@@ -1404,6 +1404,12 @@ nav#menu #menu-nav li a:hover {
 	margin-left: 0;
 }
 
+#social-area {
+    text-align: center;
+    padding-top: 3em;
+    padding-bottom: 0;
+}
+
 #social ul li a {
 	display: block;
 	width: 70px;
