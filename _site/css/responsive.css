@@ -199,6 +199,19 @@
 	.info-text {
 		padding-right: 0;	
 	}
+
+	.work-nav #filters li a {
+	color: #ffffff;
+	font-size: 1em;
+	display: block;	
+	font-family:'Arquitecta W01 Lt';
+	}
+
+	.work-nav #filters li {
+	background-color: #cccccc;
+	padding: 5px 10px;
+	margin: 5px;
+	}
 }
 
 @media (max-width: 480px) {
@@ -368,6 +381,20 @@
 
 	.title-page .title {
 	font-size: 2em;
+	}
+
+	.work-nav #filters li a {
+	color: #ffffff;
+	font-size: 1em;
+	display: block;	
+	font-family:'Arquitecta W01 Lt';
+	}
+
+	.work-nav #filters li {
+	background-color: #cccccc;
+	padding: 5px 10px;
+	margin: 5px;
+	}
 }
 
 @media (max-width: 320px) {
