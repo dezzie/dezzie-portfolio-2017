@@ -8,3 +8,14 @@ Fixes
     padding-bottom: 0;
 }
 
+.work-nav h4{
+	font-size:24px;
+	font-family:'Arquitecta W01 Regular', Helvetica, Arial, sans-serif;
+	margin-bottom: .25em;
+}
+
+
+	#social-area #social ul li a span {
+		font-size: 24px;
+		line-height: 50px;
+	}

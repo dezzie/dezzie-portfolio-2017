@@ -47,6 +47,9 @@
 <!-- Custom CSS -->
 <link href="css/custom.css" rel="stylesheet">
 
+<!-- Animations -->
+<link href="css/animations.css" rel="stylesheet">
+
 <!-- Font -->
 <script type="text/javascript" src="http://fast.fonts.net/jsapi/a02902f2-fd01-4262-ab0b-124cce2399e9.js"></script>
 
@@ -90,7 +93,7 @@
 <header>
     <div class="sticky-nav">
 
-        <div id="logo">
+        <div id="logo" class="slideDown">
         	<!--<a id="goUp" href="#home-slider" title="Desiree Zamora Garcia">Dezzie</a>-->
             <a id="goUp" href="index.html" class="external" title="Desiree Zamora Garcia">Dezzie</a>
         </div>
@@ -99,7 +102,7 @@
         	<ul id="menu-nav">
                 <!--<li><a href="#work">Work</a></li>
                 <li><a href="resume.html" class="external">Experience</a></li>-->
-                <li><a href="mailto:sayhello@thedezzie.com" target="_new" class="external">Contact</a></li>
+                <li><a href="mailto:sayhello@thedezzie.com" class="external">Say hello</a></li>
             </ul>
         </nav>
         
@@ -114,12 +117,15 @@
         <div class="row">
             <div class="span12">
                 <div class="title-page">
-                    <h2 class="title">Hello, my name is Dezzie.</h2>
-                    <h3 class="title-description">I like to research, prototype, and code.</h3>
+                    <h2 class="title">Hello! My name is Dezzie.</h2>
                     
-                    <div class="page-description">
-                		<p>As a UX designer for the <a href="http://cfpb.github.io" target="new">Consumer Financial Protection Bureau (CFPB)</a>, I've put design and technology in service of the public good. To support the Bureau's mission of making financial markets fair, transparent and competitive, I've built public-facing products that educate consumers; internal tools that help government run more efficiently; and nurtured an open-source culture that promotes civic engagement and saves taxpayer money.</p> 
+                    <h3 class="title-description">
+                		I put design and technology in service of the public good at the <a href="http://cfpb.github.io" target="new">Consumer Financial Protection Bureau</a>.</h3>
+                    
+                    <!--<div class="page-description">
+                        <p>To support the Bureau's mission of making financial markets fair, transparent and competitive, I've built public-facing products that educate consumers; internal tools that help government run more efficiently; and nurtured an open-source culture that promotes civic engagement and saves taxpayer money.</p>
                 	</div>
+                -->
                 
                 </div>    
             </div>
@@ -131,13 +137,13 @@
         	<div class="span12">
             	<!-- Filter -->
                 <nav id="options" class="work-nav">
+                    <h4>Here's some of my work:</h4>
                     <ul id="filters" class="option-set" data-option-key="filter">
-                        <li><h3>Work</h3></li>
-                        <li><a href="#filter" data-option-value="*" class="selected">All Projects</a></li>
-                        <li><a href="#filter" data-option-value=".research">Research</a></li>
-                        <li><a href="#filter" data-option-value=".prototyping">Prototyping</a></li>
-                        <li><a href="#filter" data-option-value=".code">Code</a></li>
-                        <li><a href="#filter" data-option-value=".illustration">Illustration</a></li>
+                        <li><a href="#filter" data-option-value="*" class="selected">all the things</a></li>
+                        <li><a href="#filter" data-option-value=".research">user research</a></li>
+                        <li><a href="#filter" data-option-value=".prototyping">prototyping</a></li>
+                        <li><a href="#filter" data-option-value=".code">code</a></li>
+                        <li><a href="#filter" data-option-value=".illustration">illustration</a></li>
                     </ul>
                 </nav>
                 <!-- End Filter -->
@@ -282,7 +288,7 @@
 
 <!-- Footer -->
 <footer>
-    
+
 	<p class="credits">&copy;2014 <a href="mailto:sayhello@thedezzie.com">Desirée Zamora García</a>.</p>
 </footer>
 <!-- End Footer -->
