@@ -31,7 +31,6 @@ body{
 	font-weight: 300;
 }
 
-©
 a{
 	color:#F8180A;
 	text-decoration: none;
@@ -562,7 +561,7 @@ nav#menu #menu-nav li:first-child {
 
 nav#menu #menu-nav li a {
 	color: #4C4F55;
-	font-size: 16px;
+	font-size: 13px;
 	font-weight: 300;
 	line-height: 60px;
 	display: block;
@@ -671,6 +670,7 @@ nav#menu #menu-nav li a:hover {
 	font-family: "proxima-nova-alt",sans-serif;
 	font-style: normal;
 	font-weight: 700;
+	color: #333333;
 }
 
 .title-page .title-description {
