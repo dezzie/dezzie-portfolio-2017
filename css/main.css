@@ -739,10 +739,12 @@ nav#menu #menu-nav li a:hover {
 	overflow: hidden;
 	margin-bottom: 30px;
 	cursor: pointer;
+	border-radius:50%;
 }
 
 .item-thumbs a + img {
-	width: 100%;	
+	width:100%;
+
 }
 
 .item-thumbs .hover-wrap {
@@ -758,6 +760,8 @@ nav#menu #menu-nav li a:hover {
 	   -moz-transition: opacity 250ms ease-out 0s;
 		 -o-transition: opacity 250ms ease-out 0s;
 		    transition: opacity 250ms ease-out 0s;
+
+
 }
 
 .item-thumbs:hover .hover-wrap,
