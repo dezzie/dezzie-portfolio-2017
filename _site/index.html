@@ -1,316 +1,134 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
-<!--[if (IE 9)]><html class="no-js ie9" lang="en"><![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en-US"> <!--<![endif]-->
+<!doctype html>
+<html class="no-js" lang="en">
 <head>
+        <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/elusive-webfont.css">
+    <script src="js/vendor/modernizr.js"></script>  
+    <link href="css/animations.css" rel="stylesheet">
 
-<!-- Meta Tags -->
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-<title>Dezzie | User Experience and Interaction Design</title>   
+    <!-- Font -->
+    <link rel="stylesheet" href="fonts/elusive-webfont.css">
+    <script src="//use.typekit.net/apx5miy.js"></script>
+	<script>try{Typekit.load();}catch(e){}</script>
 
-<meta name="description" content="" /> 
 
-<!-- Mobile Specifics -->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="HandheldFriendly" content="true"/>
-<meta name="MobileOptimized" content="320"/>   
-
-<!-- Mobile Internet Explorer ClearType Technology -->
-<!--[if IEMobile]>  <meta http-equiv="cleartype" content="on">  <![endif]-->
-
-<!-- Bootstrap -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
-
-<!-- Main Style -->
-<link href="css/main.css" rel="stylesheet">
-
-<!-- Supersized -->
-<link href="css/supersized.css" rel="stylesheet">
-<link href="css/supersized.shutter.css" rel="stylesheet">
-
-<!-- FancyBox -->
-<link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
-
-<!-- Font Icons -->
-<link href="css/fonts.css" rel="stylesheet">
-
-<!-- Shortcodes -->
-<link href="css/shortcodes.css" rel="stylesheet">
-
-<!-- Responsive -->
-<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
-<link href="css/responsive.css" rel="stylesheet">
-
-<!-- Custom CSS -->
-<link href="css/custom.css" rel="stylesheet">
-
-<!-- Animations -->
-<link href="css/animations.css" rel="stylesheet">
-
-<!-- Font -->
-<script src="//use.typekit.net/apx5miy.js"></script>
-<script>try{Typekit.load();}catch(e){}</script>
-
-<!-- Favicon -->
-<link rel="icon" type="image/png" href="img/favibird.ico">
-
-<link rel="apple-touch-icon" href="#">
-<link rel="apple-touch-icon" sizes="114x114" href="#">
-<link rel="apple-touch-icon" sizes="72x72" href="#">
-<link rel="apple-touch-icon" sizes="144x144" href="#">
-
-<!-- Modernizr -->
-<script src="js/modernizr.js"></script>
-
-<!-- Analytics -->
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'YOUR ID']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-<!-- End Analytics -->
-
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/favibird.ico">
+    <title>Dezzie | User Experience and Interaction Design</title>
 </head>
-
 
 <body>
 
+ <!-- Nav for Large Up-->
+<div class="magellan-container fixed" data-magellan-expedition="fixed" data-options="destination_threshold:65;throttle_delay:0;">
+  
+<!--Start nav left-->
+<div class="small-3 large-6 columns">
+  <ul class="title-area sub-nav">
+    <li data-magellan-arrival="home" class="name"><div id="logo" class="slideDown"><a href="index.html">Home</a></div></li>
+  </ul>
+</div><!--Nav left-->
+
+  <!--Start nav right-->
+ <div class="small-9 large-6 columns">
+  <ul class="sub-nav right">
+    <li data-magellan-arrival="work"><a href="index.html#work">Work</a></li>
+    <!--<li data-magellan-arrival="resume" class="show-for-medium-up"><a href="resume.html">Resume</a></li>-->
+    <li data-magellan-arrival="contact" class="show-for-medium-up"><a href="mailto:sayhello@thedezzie.com">Say Hello</a></li>
+    <li data-magellan-arrival="contact" class="show-for-small-only"><a href="mailto:sayhello@thedezzie.com">Say Hi</a></li>
+  </ul>
+ </div><!--Nav right-->
+</div><!--ends nav-->
 
 
 
-
-<!-- Header -->
-<header>
-    <div class="sticky-nav">
-
-        <div id="logo" class="slideDown">
-        	<!--<a id="goUp" href="#home-slider" title="Desiree Zamora Garcia">Dezzie</a>-->
-            <a id="goUp" href="index.html" class="external" title="Desiree Zamora Garcia">Dezzie</a>
+      <!-- Work -->
+      <div class="row">
+        <div class="spacer"></div>
+        <div class="large-12 columns">
+          <div class="hero">
+          <a name="work"></a>
+          <h1 data-magellan-destination="work">Hello! My name is Dezzie.</h1>
+          <p>I design interactive digital products, environments, and systems in service of the public good at the <a href="http://consumerfinance.gov/">Consumer Financial Protection Bureau (CFPB)</a>. Here's some of the work I've done:</p>
         </div>
+      </div><!--closes out columns-->
+    </div><!--closes out row-->
 
-        <nav id="menu">
-        	<ul id="menu-nav">
-                <!--<li><a href="#work">Work</a></li>
-                <li><a href="resume.html" class="external">Experience</a></li>-->
-                <li><a href="mailto:sayhello@thedezzie.com" class="external">Say hello</a></li>
+          <div class="row"> <!-- first row of work items -->
+
+            <div class="small-6 medium-6 large-3 columns">
+              <a href="hmda.html">
+              <img class="portfolio" data-caption="caption here..." src="img/thumbs/hmda.png"></a>
+            </div> <!-- end work item 1 -->
+
+            <div class="small-6 medium-6 large-3 columns">
+              <a href="api.html">
+              <img class="portfolio" data-caption="caption 2 here..." src="img/thumbs/api.png"></a>
+            </div> <!-- end work item 2 -->
+
+            <div class="small-6 medium-6 large-3 columns">
+              <a href="paying-for-college.html">
+              <img class="portfolio" data-caption="caption 3 here..." src="img/thumbs/p4c.png"></a>
+            </div> <!-- end work item 3 -->
+
+            <div class="small-6 medium-6 large-3 columns">
+              <a href="prepaids.html">
+              <img class="portfolio" data-caption="caption 4 here..." src="img/thumbs/prepaids.png"></a>
+            </div> <!-- end work item 4 -->
+          </div> <!-- end first row of work items -->
+
+          <div class="row portfolio-row-2"> <!-- second row of work items -->
+            <div class="small-6 medium-6 large-3 columns">
+              <a href="wizard.html">
+              <img class="portfolio" data-caption="caption here..." src="img/thumbs/wizard.png"></a>
+            </div> <!-- end work item 5 -->
+
+            <div class="small-6 medium-6 large-3 columns">
+              <a href="pattern-library.html">
+              <img class="portfolio" data-caption="caption 2 here..." src="img/thumbs/pattern-library.png"></a>
+            </div> <!-- end work item 6 -->
+
+            <div class="small-6 medium-6 large-3 columns">
+              <a href="idea-box.html">
+              <img class="portfolio" data-caption="caption 3 here..." src="img/thumbs/ideabox.png"></a>
+            </div> <!-- end work item 7 -->
+
+            <div class="small-6 medium-6 large-3 columns">
+              <a href="ohai.html">
+              <img class="portfolio" data-caption="caption 4 here..." src="img/thumbs/ohai.png"></a>
+            </div> <!-- end work item 8 -->
+          </div> <!-- end second row of work items -->
+
+        </div> <!-- end column container for work -->
+      </div> <!-- end row container for work -->
+
+   <!-- Footer -->
+      <footer>
+        <div class="row">
+        <hr>
+          <div class="small-12 medium-6 columns">
+            <p class="small-only-text-center">&copy;2015 <a href="mailto:sayhello@thedezzie.com">Desirée Zamora García</a>.</p>
+          </div> <!-- end footer block 1 -->
+
+          <div class="small-12 medium-6 columns" id="social-icons">
+            <ul class="inline-list">
+              <li><a href="https://github.com/dezzie" title="View my repos" target="_blank"><i class="el-icon-github"></i> </a></li>
+              <li><a href="http://bit.ly/dezzie-linkedin" title="View my LinkedIn profile" target="_blank"><i class="el-icon-linkedin"></i> </a></li>
+              <li><a href="http://twitter.com/thedezzie" title="Follow Me on Twitter" target="_blank"><i class="el-icon-twitter"></i> </a></li>
+              <li><a href="http://www.last.fm/user/missdezzie" target="_blank"><i class="el-icon-lastfm"></i> </a></li>
             </ul>
-        </nav>
-        
-    </div>
-</header>
-<!-- End Header -->
-
-<!-- Our Work Section -->
-<div id="work" class="page">
-	<div class="container">
-    	<!-- Title Page -->
-        <div class="row">
-            <div class="span12">
-                <div class="title-page">
-                    <h2 class="title">Hello! My name is Dezzie.</h2>
-                    
-                    <h3 class="title-description">
-                		I design interactive digital products, environments, and systems in service of the public good at the <a href="http://cfpb.github.io" target="new">Consumer Financial Protection Bureau (CFPB)</a>. Here's some of the work I've done:</h3>
-                
-                </div>    
-            </div>
+          </div> <!-- end footer block 2 -->
         </div>
-        <!-- End Title Page -->
-        
-        <!-- Portfolio Projects -->
-        <div class="row">
-        	<div class="span12">
-            	<!-- Filter -->
-                <nav id="options" class="work-nav">
-                    <ul id="filters" class="option-set" data-option-key="filter">
-                        <li><a href="#filter" data-option-value="*" class="selected">all the things</a></li>
-                        <li><a href="#filter" data-option-value=".research">user research</a></li>
-                        <li><a href="#filter" data-option-value=".ui">ui design</a></li>
-                        <li><a href="#filter" data-option-value=".prototyping">prototyping</a></li>
-                        <li><a href="#filter" data-option-value=".code">code</a></li>
-                        <li><a href="#filter" data-option-value=".illustration">illustration</a></li>
-                    </ul>
-                </nav>
-                <!-- End Filter -->
-            </div>
-            
-            <div class="span12">
-            	<div class="row">
-                	<section id="projects">
-                       
-                    	<ul id="thumbs">
-                        
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 research ui">
-                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Home Mortgage Disclosure Act" href="/img/work/full/image-01-full.jpg">
-                                    <span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-search"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="/img/work/thumbs/image-01.jpg" alt="Modernizing years of government data with tools to filter, compare, and download millions of records.">
-                            </li>
-                        	<!-- End Item Project -->
-                            
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 research prototyping code ui">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Engaging citizen developers" href="/img/work/full/image-02-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-search"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="/img/work/thumbs/image-02.jpg" alt="The gold standard of software documentation for government projects.">
-                            </li>
-                        	<!-- End Item Project -->
-                            
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 research prototyping code">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Transaction facts label" href="/img/work/full/image-03-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-search"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="/img/work/thumbs/image-03.jpg" alt="Creating a system that discloses fees and enables informed decision-making about prepaid cards.">
-                            </li>
-                        	<!-- End Item Project -->
-                        	
-                        	
-                        	
-                        	<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 prototyping ui">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Wizard Wizard" href="/img/work/full/image-04-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-search"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="/img/work/thumbs/image-04.jpg" alt="A tool that makes bureaucracy less painful for everyone.">
-                            </li>
-                        	<!-- End Item Project -->
-                        	
-                        	
-                        	<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 prototyping ui">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Idea Box" href="/img/work/full/image-05-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-search"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="/img/work/thumbs/image-05.jpg" alt="A platform for creating and vetting ideas together.">
-                            </li>
-                        	<!-- End Item Project -->
-                        	
-                        	<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 prototyping code ui">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Pattern Studio" href="/img/work/full/image-06-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-search"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="/img/work/thumbs/image-06.jpg" alt="A Django-based drag-and-drop pattern library and publishing app.">
-                            </li>
-                        	<!-- End Item Project -->
-                            
-                            <!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 illustration code">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Paying for College" href="/img/work/full/image-07-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-search"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="/img/work/thumbs/image-08.jpg" alt="Financial tools for informed decisions about student loans and financial aid.">
-                            </li>
-                        	<!-- End Item Project -->
-                            
-                            <!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 illustration">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Meet Design at the CFPB" href="/img/work/full/image-08-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-search"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="/img/work/thumbs/image-07.jpg" alt="An illustration included in new employee swag bags.">
-                            </li>
-                        	<!-- End Item Project -->
-                        </ul>
-                    </section>
-                    
-            	</div>
-            </div>
-        </div>
-        <!-- End Portfolio Projects -->
-    </div>
-</div>
-<!-- End Work Section -->
 
-<!-- Mingle -->
-<div id="social-area" class="page-alternate">
-	<div class="container">
-    	<div class="row">
-            <div class="span12">
-                <nav id="social">
-                    <ul>
-                    	<li><a href="https://github.com/dezzie" title="View my repos" target="_blank"><span class="font-icon-social-github"></span></a></li>                 	
-                    	<li><a href="http://bit.ly/dezzie-linkedin" title="View my LinkedIn profile" target="_blank"><span class="font-icon-social-linkedin"></span></a></li>
-
-
-                        <li><a href="https://twitter.com/thedezzie" title="Follow Me on Twitter" target="_blank"><span class="font-icon-social-twitter"></span></a></li>
-                        <!--<li><a href="http://www.behance.net/thedezzie" title="Behance portfolio" target="_blank"><span class="font-icon-social-behance"></span></a></li>-->
-                        <li><a href="http://www.last.fm/user/missdezzie" title="See what I'm listening to!" target="_blank"><span class="font-icon-social-last-fm"></span></a></li>
-                    </ul>
-                </nav>
-
-            </div>
-        </div>
-    </div>
-</div>
-<!-- End Mingle -->
-
-<!-- Footer -->
-<footer>
-
-	<p class="credits">&copy;2014 <a href="mailto:sayhello@thedezzie.com">Desirée Zamora García</a>.</p>
-</footer>
-<!-- End Footer -->
-
-
-<!-- Back To Top -->
-<a id="back-to-top" href="#">
-	<i class="font-icon-arrow-simple-up"></i>
-</a>
-<!-- End Back to Top -->
-
-
-<!-- Js -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- jQuery Core -->
-<script src="js/bootstrap.min.js"></script> <!-- Bootstrap -->
-<script src="js/supersized.3.2.7.min.js"></script> <!-- Slider -->
-<script src="js/waypoints.js"></script> <!-- WayPoints -->
-<script src="js/waypoints-sticky.js"></script> <!-- Waypoints for Header -->
-<script src="js/jquery.isotope.js"></script> <!-- Isotope Filter -->
-<script src="js/jquery.fancybox.pack.js"></script> <!-- Fancybox -->
-<script src="js/jquery.fancybox-media.js"></script> <!-- Fancybox for Media -->
-<script src="js/jquery.tweet.js"></script> <!-- Tweet -->
-<script src="js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
-<script src="js/main.js"></script> <!-- Default JS -->
-<!-- End Js -->
+      </footer>
+   <script src="js/vendor/jquery.js"></script>
+  <script src="js/foundation/foundation.js"></script>
+  <script src="js/foundation/foundation.magellan.js"></script>
+  
+<link href="css/animations.css" rel="stylesheet">
 
 </body>
 </html>
