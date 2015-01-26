@@ -75,6 +75,11 @@ img {
   height: auto;
  }
 
+ img.avatar {
+  width: 25%;
+  border-radius:50%;
+ }
+
  img.portfolio {
   margin-bottom: 2rem;
   border-radius: 50%;
