@@ -426,6 +426,35 @@ select {
     padding-right: 0.9375em;
     float: left; } }
 @media only screen and (min-width: 40.063em) {
+
+  .job {
+  background: #ffffff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+  margin-bottom: 2em;
+  border-radius: .1em;
+}
+
+.time {
+  background: #eaf4ea;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+  padding: .75em;
+  text-align: center;
+  border-radius: .1em;
+}
+
+.job-title {
+  background: #61cda9;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+  padding: 1em;
+  position: relative;
+  left: -2em;
+  width: 110%;
+  border-radius: .1em;
+}
+
+.job-title a {
+  color: #222222;
+}
   .medium-push-0 {
     position: relative;
     left: 0%;
@@ -5833,3 +5862,6 @@ th.hide-for-touch {
     display: inline-block;
   }
 }
+
+
+
