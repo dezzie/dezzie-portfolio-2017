@@ -447,7 +447,7 @@ select {
   padding: 1em;
   position: relative;
   left: -2em;
-  width: 100%;
+  width: 110%;
   border-radius: .1em;
 }
 
@@ -457,7 +457,18 @@ select {
   padding: 1em;
   position: relative;
   left: -2em;
-  width: 100%;
+  width: 110%;
+  border-radius: .1em;
+}
+
+
+.community-name {
+  background: #F8A883;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+  padding: 1em;
+  position: relative;
+  left: -2em;
+  width: 110%;
   border-radius: .1em;
 }
 
@@ -467,7 +478,7 @@ select {
   padding: 1em;
   position: relative;
   left: -2em;
-  width: 100%;
+  width: 110%;
   border-radius: .1em;
 }
 
