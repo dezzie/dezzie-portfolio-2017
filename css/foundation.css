@@ -434,16 +434,56 @@ select {
   border-radius: .1em;
 }
 
+  .showing-off {
+  background: #ffffff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+  margin-bottom: 2em;
+  border-radius: .1em;
+}
+
+.showing-off-name {
+  background: #FCF6AA;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+  padding: 1em;
+  position: relative;
+  left: -2em;
+  width: 100%;
+  border-radius: .1em;
+}
+
+.awards-name {
+  background: #7C8EC7;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+  padding: 1em;
+  position: relative;
+  left: -2em;
+  width: 100%;
+  border-radius: .1em;
+}
+
+.education-name {
+  background: #D85656;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+  padding: 1em;
+  position: relative;
+  left: -2em;
+  width: 100%;
+  border-radius: .1em;
+}
+
 .time {
-  background: #eaf4ea;
+  background: #ffffff;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
   padding: .75em;
   text-align: center;
   border-radius: .1em;
+  position: relative;
+  top: -1em;
+  right: 2em;
 }
 
 .job-title {
-  background: #61cda9;
+  background: #61CDA9;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
   padding: 1em;
   position: relative;
