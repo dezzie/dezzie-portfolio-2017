@@ -136,6 +136,9 @@ textarea {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
   margin-bottom: 2em;
   border-radius: .1em;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+
 }
 
 .meta {
@@ -3511,7 +3514,7 @@ h1 {
 }
 
 h2 {
-  margin-top: 0;
+  margin-top: .5rem;
   margin-bottom: 0.30769231rem;
   font-size: 1.625rem;
   line-height: 1.26923077;
@@ -3519,7 +3522,7 @@ h2 {
 }
 
 h3 {
-  margin-top: 1.22727273rem;
+  margin-top: 1.rem;
   margin-bottom: 0.22727273rem;
   font-size: 1.375rem;
   line-height: 1.27272727; 
@@ -3530,22 +3533,32 @@ h4 {
   font-size: 1.125rem;
   font-weight: 300; 
   margin-top: 0;
-  margin-bottom: 1.375rem;
+  margin-bottom: .5rem;
 }
 
 h5 {
   font-size: .875rem;
   font-weight: 600;
   margin-top: 0;
-  margin-bottom: 0;
-  line-height: 1.57142857;
+  margin-bottom: .75rem;
+  line-height: 1.83333333;
+}
+
+.blurb {
+  position: absolute; 
+  bottom: 1.125rem;
+  right: 0;
+}
+
+.blurb p {
+  font-size: 1.125rem;
 }
 
 h6 {
   font-size: .875rem; 
   font-weight: 400;
   margin-top: 0;
-  margin-bottom: 0.75rem;
+  margin-bottom: 1rem;
   line-height: 1.83333333;
   }
 
