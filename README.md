@@ -7,4 +7,4 @@ Built using Foundation
 Typeface is Proxima Nova Soft
 
 --
-[c] Code, content, and visuals by Desirée Zamora García from somewhere in Washington DC, Austin TX, or Mexico City
+© 2015 Code, content, and visuals by Desirée Zamora García. From somewhere in either Washington DC, Austin TX, or Mexico City
