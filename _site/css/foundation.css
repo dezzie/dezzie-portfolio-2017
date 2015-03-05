@@ -919,6 +919,10 @@ select {
   background-color: #ffffff;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
 }
+
+.no-hero {
+  margin-top: 4rem;
+}
   .large-push-0 {
     position: relative;
     left: 0%;
