@@ -2,7 +2,7 @@
 
 Portfolio for 2015
 
-Built using Foundation
+Built using Foundation and Jekyll
 
 Typeface is Proxima Nova Soft
 
