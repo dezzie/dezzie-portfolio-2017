@@ -1,6 +1,6 @@
 # Colophon
 
-Portfolio for 2015
+Portfolio for work from 2012-2015
 
 Built using Foundation and Jekyll
 
