@@ -6,5 +6,5 @@ Built using Foundation and Jekyll (and will probably stay that way)
 
 Typeface is Proxima Nova Soft (but not for long)
 
---
+
 © 2017 Code, content, and visuals by Desirée Zamora García, from somewhere in either Washington DC, Austin TX, or México DF.
