@@ -84,7 +84,7 @@ img {
 
  img.portfolio {
   margin-bottom: .5rem;
-  border-radius: 50%;
+  max-width: 75%;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
  }
 
@@ -104,7 +104,7 @@ img {
   float: left !important; }
 
 .right {
-  float: right !important; 
+  float: right !important;
   padding-top: 1rem;}
 
 .clearfix:before, .clearfix:after {
@@ -2954,7 +2954,7 @@ meta.foundation-mq-topbar {
   background: #FFFFFF;
   z-index: 50;
   min-width: 100%;
-  padding: .25rem; 
+  padding: .25rem;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
 
 }
@@ -2963,7 +2963,7 @@ meta.foundation-mq-topbar {
     [data-magellan-expedition] .sub-nav dd, [data-magellan-expedition-clone] .sub-nav dd {
       margin-bottom: 0; }
     [data-magellan-expedition] .sub-nav a, [data-magellan-expedition-clone] .sub-nav a {
-      line-height: 1.8em; 
+      line-height: 1.8em;
 }
 
 #logo a {
@@ -3534,13 +3534,13 @@ h3 {
   margin-top: 1.rem;
   margin-bottom: 0.22727273rem;
   font-size: 1.375rem;
-  line-height: 1.27272727; 
+  line-height: 1.27272727;
   font-weight: 300;
   }
 
 h4 {
   font-size: 1.125rem;
-  font-weight: 300; 
+  font-weight: 300;
   margin-top: 0;
   margin-bottom: .5rem;
 }
@@ -3554,7 +3554,7 @@ h5 {
 }
 
 h6 {
-  font-size: .875rem; 
+  font-size: .875rem;
   font-weight: 400;
   margin-top: 0;
   margin-bottom: 1rem;
@@ -4327,7 +4327,7 @@ dialog {
       text-transform: uppercase;
       letter-spacing: 1px;
       color: #4C4F55;
-      padding: 0.1875rem 1rem; 
+      padding: 0.1875rem 1rem;
       font-size: 13px;
       }
       .sub-nav dt a:hover,
@@ -5649,7 +5649,7 @@ kbd {
 @media only screen and (min-width: 64.063em) {
 
     .blurb {
-  position: absolute; 
+  position: absolute;
   bottom: 1.125rem;
   right: 0;
 }
@@ -5982,5 +5982,3 @@ th.hide-for-touch {
 .social {
   font-size: 1.5em;
 }
-
-

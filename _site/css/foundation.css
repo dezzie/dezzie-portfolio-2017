@@ -59,7 +59,7 @@ body {
   color: #222222;
   padding: 0;
   margin: 0;
-  font-family: 'proxima-nova-alt', 'Helvetica Neue', sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', sans-serif;
   font-weight: 300;
   font-size: 16px;
   font-style: normal;
@@ -84,7 +84,7 @@ img {
 
  img.portfolio {
   margin-bottom: .5rem;
-  border-radius: 50%;
+  max-width: 75%;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
  }
 
@@ -104,7 +104,7 @@ img {
   float: left !important; }
 
 .right {
-  float: right !important; 
+  float: right !important;
   padding-top: 1rem;}
 
 .clearfix:before, .clearfix:after {
@@ -1289,7 +1289,7 @@ button, .button {
   border-style: solid;
   border-width: 0;
   cursor: pointer;
-  font-family: 'proxima-nova-alt', 'Helvetica Neue', sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -1710,7 +1710,7 @@ select {
   border-color: #cccccc;
   padding: 0.5rem;
   font-size: 0.875rem;
-  font-family: 'proxima-nova-alt', 'Helvetica Neue', sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', sans-serif;
   color: rgba(0, 0, 0, 0.75);
   line-height: normal;
   border-radius: 0;
@@ -1970,7 +1970,7 @@ meta.foundation-mq-topbar {
       color: #FFFFFF;
       padding: 12px 0 12px 0;
       padding-left: 0.9375rem;
-     font-family: 'proxima-nova-alt', 'Helvetica Neue', sans-serif;
+     font-family: 'Roboto', 'Helvetica Neue', sans-serif;
       font-size: 0.8125rem;
       font-weight: normal;
       text-transform: none; }
@@ -2430,8 +2430,7 @@ meta.foundation-mq-topbar {
   margin-left: -1.375rem;
   margin-right: 0;
   padding: 0;
-  list-style: none;
-  overflow: hidden; }
+  list-style: none; }
   .inline-list > li {
     list-style: none;
     float: left;
@@ -2920,7 +2919,7 @@ meta.foundation-mq-topbar {
     color: #EEEEEE;
     font-weight: normal;
     font-size: 1rem;
-    font-family: 'proxima-nova-alt', 'Helvetica Neue', sans-serif; }
+    font-family: 'Roboto', 'Helvetica Neue', sans-serif; }
   .pricing-table .price {
     background-color: #F6F6F6;
     padding: 0.9375rem 1.25rem;
@@ -2928,7 +2927,7 @@ meta.foundation-mq-topbar {
     color: #333333;
     font-weight: normal;
     font-size: 2rem;
-    font-family: 'proxima-nova-alt', 'Helvetica Neue', sans-serif; }
+    font-family: 'Roboto', 'Helvetica Neue', sans-serif; }
   .pricing-table .description {
     background-color: #FFFFFF;
     padding: 0.9375rem;
@@ -2955,7 +2954,7 @@ meta.foundation-mq-topbar {
   background: #FFFFFF;
   z-index: 50;
   min-width: 100%;
-  padding: .25rem; 
+  padding: .25rem;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
 
 }
@@ -2964,7 +2963,7 @@ meta.foundation-mq-topbar {
     [data-magellan-expedition] .sub-nav dd, [data-magellan-expedition-clone] .sub-nav dd {
       margin-bottom: 0; }
     [data-magellan-expedition] .sub-nav a, [data-magellan-expedition-clone] .sub-nav a {
-      line-height: 1.8em; 
+      line-height: 1.8em;
 }
 
 #logo a {
@@ -3135,7 +3134,7 @@ meta.foundation-mq-topbar {
       background-color: #EFEFEF;
       color: #222222;
       padding: 1rem 2rem;
-      font-family: 'proxima-nova-alt', 'Helvetica Neue', sans-serif;
+      font-family: 'Roboto', 'Helvetica Neue', sans-serif;
       font-size: 1rem; }
       .tabs dd > a:hover, .tabs .tab-title > a:hover {
         background-color: #e1e1e1; }
@@ -3250,7 +3249,7 @@ ul.pagination {
   padding: 0.875rem 0;
   list-style-type: none;
   list-style-position: outside;
-  font-family: 'proxima-nova-alt', 'Helvetica Neue', sans-serif; }
+  font-family: 'Roboto', 'Helvetica Neue', sans-serif; }
   .side-nav li {
     margin: 0 0 0.4375rem 0;
     font-size: 0.875rem;
@@ -3266,7 +3265,7 @@ ul.pagination {
     .side-nav li.active > a:first-child:not(.button) {
       color: #fa5d53;
       font-weight: normal;
-      font-family: 'proxima-nova-alt', 'Helvetica Neue', sans-serif; }
+      font-family: 'Roboto', 'Helvetica Neue', sans-serif; }
     .side-nav li.divider {
       border-top: 1px solid;
       height: 0;
@@ -3296,7 +3295,7 @@ ul.pagination {
       color: #222222;
       padding: 1rem;
       display: block;
-      font-family: 'proxima-nova-alt', 'Helvetica Neue', sans-serif;
+      font-family: 'Roboto', 'Helvetica Neue', sans-serif;
       font-size: 1rem; }
       .accordion .accordion-navigation > a:hover, .accordion dd > a:hover {
         background: #e3e3e3; }
@@ -3491,8 +3490,8 @@ p {
     font-style: italic; }
 
 .hero h1 {
-  font-size: 3rem;
-  font-weight: 700;
+  font-size: 7rem;
+  font-weight: 900;
 }
 
 .hero {
@@ -3502,7 +3501,7 @@ p {
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'proxima-nova-alt', 'Helvetica Neue', sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #333333;
@@ -3535,13 +3534,13 @@ h3 {
   margin-top: 1.rem;
   margin-bottom: 0.22727273rem;
   font-size: 1.375rem;
-  line-height: 1.27272727; 
+  line-height: 1.27272727;
   font-weight: 300;
   }
 
 h4 {
   font-size: 1.125rem;
-  font-weight: 300; 
+  font-weight: 300;
   margin-top: 0;
   margin-bottom: .5rem;
 }
@@ -3555,7 +3554,7 @@ h5 {
 }
 
 h6 {
-  font-size: .875rem; 
+  font-size: .875rem;
   font-weight: 400;
   margin-top: 0;
   margin-bottom: 1rem;
@@ -4317,7 +4316,7 @@ dialog {
     display: inline;
     margin-left: 1rem;
     margin-bottom: 0;
-    font-family: 'proxima-nova-alt', 'Helvetica Neue', sans-serif;
+    font-family: 'Roboto', 'Helvetica Neue', sans-serif;
     font-weight: normal;
     font-size: 0.875rem;
     color: #999999; }
@@ -4328,7 +4327,7 @@ dialog {
       text-transform: uppercase;
       letter-spacing: 1px;
       color: #4C4F55;
-      padding: 0.1875rem 1rem; 
+      padding: 0.1875rem 1rem;
       font-size: 13px;
       }
       .sub-nav dt a:hover,
@@ -4351,7 +4350,7 @@ dialog {
 
 .label {
   font-weight: normal;
-  font-family: 'proxima-nova-alt', 'Helvetica Neue', sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', sans-serif;
   text-align: center;
   text-decoration: none;
   line-height: 1;
@@ -5650,7 +5649,7 @@ kbd {
 @media only screen and (min-width: 64.063em) {
 
     .blurb {
-  position: absolute; 
+  position: absolute;
   bottom: 1.125rem;
   right: 0;
 }
@@ -5983,5 +5982,3 @@ th.hide-for-touch {
 .social {
   font-size: 1.5em;
 }
-
-
